@@ -8,6 +8,10 @@ class Tree {
 	Node* _root{ nullptr };
 
 public:
+	void print() {
+		print(_root);
+	}
+
 	void print(Node* node) {
 		if (node == nullptr) return;
 
