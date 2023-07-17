@@ -11,5 +11,9 @@ int main() {
 
 	tree.print();
 	
+	cout << "delete" << endl;
+	tree.erase(10);
+	tree.print();
+
 	return 0;
 }
